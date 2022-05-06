@@ -1,0 +1,13 @@
+@import "../partials/variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+header{
+    @extend .header-footer;
+    nav{
+        @include flexibilizar-centrar;
+        a{
+            @include estilo-de-anclas;
+        }
+    }
+}

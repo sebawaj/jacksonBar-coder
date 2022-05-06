@@ -1,0 +1,22 @@
+@import "../partials/variables/variables";
+
+
+@mixin flexibilizar-centrar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@mixin fuentes {
+    font-family: $tipo-de-letra;
+    line-height: 1,5;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@mixin estilo-de-anclas {
+    text-decoration: none;
+    font-family: $tipo-de-letra;
+    
+}
+

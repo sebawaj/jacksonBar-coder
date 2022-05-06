@@ -1,0 +1,13 @@
+@import "../partials/variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+section{
+    width: $ancho;
+    article{
+        width: $ancho;
+        p{
+            @include fuentes;
+        }
+    }
+}

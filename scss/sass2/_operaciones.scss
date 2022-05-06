@@ -1,0 +1,12 @@
+@import "../partials/variables/variables";
+
+.box_uno{
+    background-color: $grey;
+    width: $ancho/2;
+}
+
+.box_dos{
+    background-color: $grey;
+    width: (ancho/2)-50;
+}
+

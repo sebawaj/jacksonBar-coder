@@ -1,0 +1,13 @@
+@import "../partials/variables/variables";
+
+$redes:(
+    color: $grey,
+    centro: $alinear-al-centro,
+    fSize: $size,
+    ancho: 16px,
+);
+
+body{
+    background-color: $grey;
+    
+}
