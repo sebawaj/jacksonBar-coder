@@ -660,39 +660,39 @@ span {
   font-size: 2rem; }
 
 .carousel__face:nth-child(1) {
-  background-image: url("./img/GAST8021.jpg");
+  background-image: url("../img/GAST7438-min.jpg");
   transform: rotateY(0deg) translateZ(430px); }
 
 .carousel__face:nth-child(2) {
-  background-image: url("./img/GAST8021.jpg");
+  background-image: url("../img/GAST8021-min.jpg");
   transform: rotateY(40deg) translateZ(430px); }
 
 .carousel__face:nth-child(3) {
-  background-image: url("./img/GAST8167.jpg");
+  background-image: url("../img/GAST8167-min.jpg");
   transform: rotateY(80deg) translateZ(430px); }
 
 .carousel__face:nth-child(4) {
-  background-image: url("./img/GAST8170.jpg");
+  background-image: url("../img/GAST8170-min.jpg");
   transform: rotateY(120deg) translateZ(430px); }
 
 .carousel__face:nth-child(5) {
-  background-image: url("./img/GAST8172.jpg");
+  background-image: url("../img/GAST8172-min.jpg");
   transform: rotateY(160deg) translateZ(430px); }
 
 .carousel__face:nth-child(6) {
-  background-image: url("./img/IMG_2932.JPG");
+  background-image: url("../img/IMG_2932-min.JPG");
   transform: rotateY(200deg) translateZ(430px); }
 
 .carousel__face:nth-child(7) {
-  background-image: url("./img/IMG_3094.JPG");
+  background-image: url("../img/IMG_3094-min.JPG");
   transform: rotateY(240deg) translateZ(430px); }
 
 .carousel__face:nth-child(8) {
-  background-image: url("./img/IMG_3123.JPG");
+  background-image: url("../img/IMG_3123-min.JPG");
   transform: rotateY(280deg) translateZ(430px); }
 
 .carousel__face:nth-child(9) {
-  background-image: url("./img/IMG_3160.JPG");
+  background-image: url("../img/IMG_3160-min.JPG");
   transform: rotateY(320deg) translateZ(430px); }
 
 @keyframes rotate360 {
