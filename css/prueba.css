@@ -660,38 +660,47 @@ span {
   font-size: 2rem; }
 
 .carousel__face:nth-child(1) {
+    /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST7438-min.jpg");
   transform: rotateY(0deg) translateZ(430px); }
 
 .carousel__face:nth-child(2) {
+    /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8021-min.jpg");
   transform: rotateY(40deg) translateZ(430px); }
 
 .carousel__face:nth-child(3) {
+    /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8167-min.jpg");
   transform: rotateY(80deg) translateZ(430px); }
 
 .carousel__face:nth-child(4) {
+    /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8170-min.jpg");
   transform: rotateY(120deg) translateZ(430px); }
 
 .carousel__face:nth-child(5) {
+    /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8172-min.jpg");
   transform: rotateY(160deg) translateZ(430px); }
 
 .carousel__face:nth-child(6) {
+    /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_2932-min.JPG");
   transform: rotateY(200deg) translateZ(430px); }
 
 .carousel__face:nth-child(7) {
+    /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_3094-min.JPG");
   transform: rotateY(240deg) translateZ(430px); }
 
 .carousel__face:nth-child(8) {
+  /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_3123-min.JPG");
   transform: rotateY(280deg) translateZ(430px); }
 
 .carousel__face:nth-child(9) {
+    /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_3160-min.JPG");
   transform: rotateY(320deg) translateZ(430px); }
 
