@@ -578,21 +578,18 @@ El Id se utiliza una vez por HTML*/
     text-align: center;
     align-items: center;
   }
-
   .cumples {
     margin-top: 200px;
     grid-area: cumples;
     justify-content: center;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  
-    .club {
+  .club {
     grid-area: club;
     justify-content: center;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  
-    .carta {
+  .carta {
     grid-area: carta;
     justify-content: center;
     text-align: center;
@@ -643,25 +640,27 @@ body {
   color: #fefefe; }
 
 .container {
-  position: absolute;
-  width: 50px;
-  margin: auto 0 auto;
-  perspective: 10000px; }
+  position: relative;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px; }
 
 .carousel {
   position: absolute;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   transform-style: preserve-3d;
   animation: rotate360 60s infinite forwards linear; }
 
 .carousel__face {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 187px;
   top: 20px;
+  left: 10px;
+  right: 10px;
   background-size: cover;
-  box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
   display: flex; }
 
 span {
@@ -671,46 +670,46 @@ span {
 .carousel__face:nth-child(1) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST7438-min.jpg");
-  transform: rotateY(0deg) translateZ(290px); }
+  transform: rotateY(0deg) translateZ(430px); }
 
 .carousel__face:nth-child(2) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8021-min.jpg");
-  transform: rotateY(40deg) translateZ(290px); }
+  transform: rotateY(40deg) translateZ(430px); }
 
 .carousel__face:nth-child(3) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8167-min.jpg");
-  transform: rotateY(80deg) translateZ(290px); }
+  transform: rotateY(80deg) translateZ(430px); }
 
 .carousel__face:nth-child(4) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8170-min.jpg");
-  transform: rotateY(120deg) translateZ(290px); }
+  transform: rotateY(120deg) translateZ(430px); }
 
 .carousel__face:nth-child(5) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8172-min.jpg");
-  transform: rotateY(160deg) translateZ(290px); }
+  transform: rotateY(160deg) translateZ(430px); }
 
 .carousel__face:nth-child(6) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_2932-min.JPG");
-  transform: rotateY(200deg) translateZ(290px); }
+  transform: rotateY(200deg) translateZ(430px); }
 
 .carousel__face:nth-child(7) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_3094-min.JPG");
-  transform: rotateY(240deg) translateZ(290px); }
+  transform: rotateY(240deg) translateZ(430px); }
 
 .carousel__face:nth-child(8) {
   /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_3123-min.JPG");
-  transform: rotateY(280deg) translateZ(290px); }
+  transform: rotateY(280deg) translateZ(430px); }
 
 .carousel__face:nth-child(9) {
   background-image: url("../img/IMG_3160-min.JPG");
-  transform: rotateY(320deg) translateZ(290px); }
+  transform: rotateY(320deg) translateZ(430px); }
 
 @keyframes rotate360 {
   from {
