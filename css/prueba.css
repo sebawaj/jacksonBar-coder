@@ -129,6 +129,7 @@ section.awSlider > img {
 
 .encabezado {
   grid-area: encabezado;
+  font-family: 'Didact Gothic';
   background-color: black;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -188,6 +189,15 @@ section.awSlider > img {
   justify-content: center;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+  .secc-cumples{
+    color: #000;
+  grid-area: cumples;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  }
 
 .club {
   color: #000;
@@ -522,6 +532,7 @@ El Id se utiliza una vez por HTML*/
     grid-template-areas: "encabezado" "carousel" "form-reserva" "form-card" "cumples" "club" "carta" "playlist" "ubi" "pie"; }
   .encabezado {
     grid-area: encabezado;
+    font-family: 'Didact Gothic';
     background-color: black;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -700,7 +711,6 @@ span {
   transform: rotateY(280deg) translateZ(430px); }
 
 .carousel__face:nth-child(9) {
-    /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_3160-min.JPG");
   transform: rotateY(320deg) translateZ(430px); }
 
