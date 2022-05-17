@@ -322,8 +322,6 @@ section.awSlider > img {
   background-color: black;
   color: aliceblue;
   height: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 5px;
   font-size: medium;
@@ -697,10 +695,10 @@ El Id se utiliza una vez por HTML*/
   background-color: black;
   color: aliceblue;
   height: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 5px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   font-size: medium;
   padding-top: 1px;
   overflow: hidden;
@@ -887,8 +885,6 @@ El Id se utiliza una vez por HTML*/
     background-color: black;
     color: aliceblue;
     height: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: medium;
