@@ -156,14 +156,12 @@ section.awSlider > img {
   justify-content: left;
   align-items: center;
   padding: 2rem;
-  margin-left: 100px;
-  /* margin-top: 300px; */
   margin-bottom: 15px;
   list-style: none;
   background-color: white;
   flex-wrap: wrap;
   display: flex;
-  margin-left: 35%; }
+}
 
 .form-card {
   grid-area: form-card;
@@ -172,15 +170,13 @@ section.awSlider > img {
   justify-content: left;
   align-items: center;
   padding: 2rem;
-  margin-left: 100px;
-  /* margin-top: 300px; */
   margin-bottom: 15px;
   list-style: none;
   background-color: white;
   width: fit-content;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 35%; }
+}
 
 .cumples {
   color: #000;
@@ -265,7 +261,6 @@ nav {
   margin: 20px;
   width: fit-content;
   justify-content: space-around;
-  /* float: right; */
   background-color: white; }
 
 nav:hover-1 {
@@ -528,16 +523,19 @@ El Id se utiliza una vez por HTML*/
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(10, 500px);
     border: 1px solid black;
-    /* gap: 100px 20px; */
-    grid-template-areas: "encabezado" "carousel" "form-reserva" "form-card" "cumples" "club" "carta" "playlist" "ubi" "pie"; }
-  .encabezado {
+    grid-template-areas: "encabezado" "carousel" "form-reserva" "form-card" "cumples" "club" "carta" "playlist" "ubi" "pie"; 
+  }
+  
+    .encabezado {
     grid-area: encabezado;
     font-family: 'Didact Gothic';
     background-color: black;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
-    margin-right: 20px; }
+    margin-right: 20px; 
+  }
+
   .carousel {
     grid-area: carousel;
     justify-content: center;
@@ -554,13 +552,13 @@ El Id se utiliza una vez por HTML*/
     justify-content: left;
     align-items: center;
     padding: 2rem;
-    /* margin-top: 300px; */
     margin-bottom: 15px;
     list-style: none;
     background-color: white;
     width: fit-content;
     display: flex;
-    margin-left: 35%; }
+}
+
   .form-card {
     grid-area: form-card;
     color: black;
@@ -568,31 +566,33 @@ El Id se utiliza una vez por HTML*/
     justify-content: left;
     align-items: center;
     padding: 2rem;
-    margin-left: 100px;
-    /* margin-top: 300px; */
     margin-bottom: 15px;
     list-style: none;
     background-color: white;
     width: fit-content;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 35%; }
+  }
+  
   .finde-titulo {
     text-align: center;
     align-items: center;
-    margin-left: 700px; }
+  }
+
   .cumples {
     margin-top: 200px;
     grid-area: cumples;
     justify-content: center;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  .club {
+  
+    .club {
     grid-area: club;
     justify-content: center;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  .carta {
+  
+    .carta {
     grid-area: carta;
     justify-content: center;
     text-align: center;
@@ -643,27 +643,25 @@ body {
   color: #fefefe; }
 
 .container {
-  position: relative;
-  width: 320px;
-  margin: 100px auto 0 auto;
-  perspective: 1000px; }
+  position: absolute;
+  width: 50px;
+  margin: auto 0 auto;
+  perspective: 10000px; }
 
 .carousel {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   transform-style: preserve-3d;
   animation: rotate360 60s infinite forwards linear; }
 
 .carousel__face {
   position: absolute;
-  width: 300px;
-  height: 187px;
+  width: 150px;
+  height: 150px;
   top: 20px;
-  left: 10px;
-  right: 10px;
   background-size: cover;
-  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.5);
   display: flex; }
 
 span {
@@ -673,46 +671,46 @@ span {
 .carousel__face:nth-child(1) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST7438-min.jpg");
-  transform: rotateY(0deg) translateZ(430px); }
+  transform: rotateY(0deg) translateZ(290px); }
 
 .carousel__face:nth-child(2) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8021-min.jpg");
-  transform: rotateY(40deg) translateZ(430px); }
+  transform: rotateY(40deg) translateZ(290px); }
 
 .carousel__face:nth-child(3) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8167-min.jpg");
-  transform: rotateY(80deg) translateZ(430px); }
+  transform: rotateY(80deg) translateZ(290px); }
 
 .carousel__face:nth-child(4) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8170-min.jpg");
-  transform: rotateY(120deg) translateZ(430px); }
+  transform: rotateY(120deg) translateZ(290px); }
 
 .carousel__face:nth-child(5) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/GAST8172-min.jpg");
-  transform: rotateY(160deg) translateZ(430px); }
+  transform: rotateY(160deg) translateZ(290px); }
 
 .carousel__face:nth-child(6) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_2932-min.JPG");
-  transform: rotateY(200deg) translateZ(430px); }
+  transform: rotateY(200deg) translateZ(290px); }
 
 .carousel__face:nth-child(7) {
     /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_3094-min.JPG");
-  transform: rotateY(240deg) translateZ(430px); }
+  transform: rotateY(240deg) translateZ(290px); }
 
 .carousel__face:nth-child(8) {
   /* <!-- Imagen comprimida --> */
   background-image: url("../img/IMG_3123-min.JPG");
-  transform: rotateY(280deg) translateZ(430px); }
+  transform: rotateY(280deg) translateZ(290px); }
 
 .carousel__face:nth-child(9) {
   background-image: url("../img/IMG_3160-min.JPG");
-  transform: rotateY(320deg) translateZ(430px); }
+  transform: rotateY(320deg) translateZ(290px); }
 
 @keyframes rotate360 {
   from {

@@ -134,14 +134,11 @@ section.awSlider > img{
   justify-content: left;
   align-items: center;
   padding: 2rem;
-  margin-left: 100px;
-  /* margin-top: 300px; */
   margin-bottom: 15px;
   list-style: none;
   background-color: white;
   flex-wrap: wrap;
   display: flex;
-  margin-left: 35%;
 }
 
 .form-card{
@@ -151,15 +148,12 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 justify-content: left;
 align-items: center;
 padding: 2rem;
-margin-left: 100px;
-/* margin-top: 300px; */
 margin-bottom: 15px;
 list-style: none;
 background-color: white;
 width: fit-content;
 display: flex;
 flex-wrap: wrap;
-margin-left: 35%;
 }
 
 .cumples{
@@ -224,8 +218,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 background-color: black;
 color: aliceblue;
 height: 50px;
-margin-left: 20px;
-margin-right: 20px;
 margin-top: 10px;
 margin-bottom: 5px;
 font-size: medium;
@@ -389,7 +381,6 @@ El Id se utiliza una vez por HTML*/
   background-color: white;
   justify-content: center;
   display: flex;
-  margin-left: 35%;
 }
 
 .form-card{
@@ -408,7 +399,6 @@ El Id se utiliza una vez por HTML*/
   justify-content: center;
   display: flex;
   position: relative;
-  margin-left: 35%;
 }
 
 .celda{
@@ -536,172 +526,14 @@ justify-content: center;
   background-color: black;
   color: aliceblue;
   height: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 5px;
-  font-size: medium;
-  padding-top: 1px;
-  overflow: hidden;
-}
-
-
-@media (max-width: 768px) and (min-width: 400px) {
-  .grid-container{
-      display: grid;
-      grid-template-columns: repeat(1, 100%);
-      grid-template-rows: repeat(10, 500px);
-      border: 1px solid black;
-      /* gap: 100px 20px; */
-      grid-template-areas:  
-      "encabezado"
-      "carousel"
-      "form-reserva"
-      "form-card"
-      "cumples"
-      "club"
-      "carta"
-      "playlist"
-      "ubi"
-      "pie"
-      ;
-  }
-  .encabezado{
-      grid-area: encabezado;
-      background-color: black;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-left: 20px;
-      margin-right: 20px;
-      font-family: 'Didact Gothic';
-}
-
-.carousel{
-  grid-area:carousel;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  margin-bottom: 25px;
-  margin-left: 100px;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.form-reserva{
-      grid-area:form-reserva;
-      color: black;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      justify-content: left;
-      align-items: center;
-      padding: 2rem;
-      /* margin-top: 300px; */
-      margin-bottom: 15px;
-      list-style: none;
-      background-color: white;
-      width: fit-content;
-      display: flex;
-      margin-left: 35%;
-  }
-
-.form-card{
-  grid-area:form-card;
-  color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  justify-content: left;
-  align-items: center;
-  padding: 2rem;
-  margin-left: 100px;
-  /* margin-top: 300px; */
-  margin-bottom: 15px;
-  list-style: none;
-  background-color: white;
-  width: fit-content;
-  display: flex;
   flex-wrap: wrap;
-  margin-left: 35%;
-}
-
-.finde-titulo{
-  text-align: center;
-  align-items: center;
-  margin-left: 700px;
-}
-
-.cumples{
-  margin-top: 200px;
-  grid-area: cumples;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.club{
-  grid-area: club;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.carta{
-  grid-area: carta;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  align-items: center;
-  margin-top: 35px;
-  margin-bottom: 15px;
-  margin-left: 20px;
-}
-
-.carta-img{
-  width: 100px;
-  height: 50px;
-  align-items: center;
-  justify-content: center;
-}
-
-.playlist{
-  grid-area: playlist;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  }
-
-.ubi{
-  grid-area: ubi;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-left: 300px;
-}
-
-.pie{
-  grid-area: pie;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: black;
-  color: aliceblue;
-  height: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 5px;
   font-size: medium;
   padding-top: 1px;
   overflow: hidden;
-  }
 }
 
-body {
-  margin: 0;
-  background: lightgray;
-  text-align: center;
-  font-family: sans-serif;
-  color: #fefefe;
-}
 
 .container {
   position: relative;
@@ -769,5 +601,614 @@ span {
   }
   to {
     transform: rotateY(-360deg);
+
+
+@media (max-width: 768px) and (min-width: 400px) {
+  .grid-container{
+      display: grid;
+      grid-template-columns: repeat(1, 80%);
+      grid-template-rows: repeat(10, 500px);
+      border: 1px solid black;
+      /* gap: 100px 20px; */
+      grid-template-areas:  
+      "encabezado"
+      "carousel"
+      "form-reserva"
+      "form-card"
+      "cumples"
+      "club"
+      "carta"
+      "playlist"
+      "ubi"
+      "pie"
+      ;
+
+      :root{
+        background-color: gray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        justify-content: center;
+      }
+      
+      body{
+        background:#000;
+      }
+      
+      section.awSlider .carousel{
+        display:table;
+        z-index:2;
+        -moz-box-shadow: 0 0 4px #444;
+          -webkit-box-shadow: 0 0 4px #444;
+          box-shadow: 0 0 15px rgba(1,1,1,.5);
+      }
+      
+      section.awSlider{
+        margin:30px auto;
+        padding:30px;
+        position:relative;
+        display:table;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      section.awSlider:hover > img{
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity:1;
+      }
+      
+      section.awSlider img{
+         pointer-events: none;
+      }
+      
+      section.awSlider > img{
+        position:absolute;
+        top:30px;
+        z-index:1;
+        transition:all .3s;
+        filter: blur(1.8vw);
+        -webkit-filter: blur(2vw);
+        -moz-filter: blur(2vw); 
+        -o-filter: blur(2vw); 
+        -ms-filter: blur(2vw);
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        opacity:.5;
+      }
+      
+      .logo{
+        width: 220px;
+        height: 120px;
+      }
+      
+      .fondo-menu{
+        background-color: white;
+        font-weight: 300;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        margin-right: 10px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      
+      *{
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        box-sizing: border-box;
+        text-align: center;
+        justify-content: center;
+        
+      }
+      
+      .encabezado{
+        grid-area: encabezado;
+        background-color: black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Didact Gothic';
+      }
+      
+      .hover-1{
+        color: black;
+        font-size: large;
+      }
+      
+      .carousel{
+        grid-area: carousel;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+      
+      .form-reserva{
+        grid-area: form-reserva;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        justify-content: left;
+        align-items: center;
+        padding: 2rem;
+        margin-bottom: 15px;
+        list-style: none;
+        background-color: white;
+        flex-wrap: wrap;
+        display: flex;
+      }
+      
+      .form-card{
+      grid-area: form-card;
+      color: black;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      justify-content: left;
+      align-items: center;
+      padding: 2rem;
+      margin-bottom: 15px;
+      list-style: none;
+      background-color: white;
+      width: fit-content;
+      display: flex;
+      flex-wrap: wrap;
+      }
+      
+      .cumples{
+      color: #000;
+      grid-area: cumples;
+      margin-top: 200px;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      
+      .club{
+      color: #000;
+      grid-area: club;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      
+      .carta{
+      grid-area: carta;
+      color: #000;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      align-items: center;
+      margin-top: 35px;
+      margin-bottom: 15px;
+      margin-left: 20px;
+      }
+      
+      .carta-img{
+      width: 400px;
+      height: 550px;
+      align-items: center;
+      justify-content: center;
+      }
+      
+      .playlist{
+      color: #000;
+      grid-area: playlist;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      }
+      
+      .ubi{
+      color: #000;
+      grid-area: ubi;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      
+      .pie{
+      grid-area: pie;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: black;
+      color: aliceblue;
+      height: 50px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-size: medium;
+      padding-top: 1px;
+      overflow: hidden;
+      }
+      
+      
+      nav{
+        background-color: white;
+      }
+      
+      
+      .nav-section{
+        display: flex;
+        border: double;
+        flex-direction: column;
+        margin: 20px;
+        width: fit-content;
+        justify-content: space-around;
+        /* float: right; */
+        background-color: white;
+      }
+      
+      nav:hover-1{
+        background-color: aqua;
+        color: burlywood;
+        
+      }
+      
+      .menu{
+        margin: 10px;   
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        width:fit-content;
+        float: right;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      
+      header{
+        margin: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+      }
+      
+      .logo{
+        margin: 20px;
+        margin-top: 20px;
+        text-align: left;
+        justify-content: left;
+        background-color: black;
+      }
+      
+      
+      h1{
+        font-family: 'Didact Gothic';font-size: 22px;
+        color: black;
+        font-size: 50px;
+        text-align: center;
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      
+      body{
+        width: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: double;
+        background-color: whitesmoke;
+      }
+      
+      /* Usamos un selector de elemento*/
+      
+      .logoWapp{
+        align-items: center;
+      }
+      
+      .lista-menu a:hover{
+        background-color: red;
+        color:black
+      }
+      
+      a:active{
+        color: darkgrey;
+        font-size: medium;
+      }
+      
+      /*le eliminamos el subrayado a las anclas*/
+      nav a{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+        background-color: rgba(255, 255, 255, 0.822);
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu a:hover{
+        color: grey;
+        background-color: black;
+      }
+      
+      h2.menu-titulo{
+        color: black;
+        text-align: left;
+      }
+      
+      ul{
+        list-style: none;
+        font-size: 0;
+        width: fit-content;
+        display: flex;
+        justify-content: space-around;
+        
+      }
+      
+      
+      li{
+          display: block;
+          width:fit-content;
+          font-size: 14px;
+      }
+      
+      /*Usamos un selector de clase.
+      Llamamos a la clase con un "." 
+      Se le llama kebab-case, metodologia de estructura de clases.
+      */
+      
+      /* Usamos el id con un "#" .
+      El Id se utiliza una vez por HTML*/
+      
+      .form-titulo{
+        display: block;
+        font-size: 1.17rem;
+        /* margin-block-start: 1rem;
+        margin-block-end: 1rem; */
+        margin: 15px;
+        font-weight: bold;
+      }
+      
+      .form-reserva{
+        grid-area: form-reserva;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        width: fit-content;
+        list-style: none;
+        background-color: white;
+        justify-content: center;
+        display: flex;
+      }
+      
+      .form-card{
+        grid-area: form-card;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        justify-content: left;
+        align-items: center;
+        padding: 2rem;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+        list-style: none;
+        background-color: white;
+        width: fit-content;
+        justify-content: center;
+        display: flex;
+        position: relative;
+      }
+      
+      .celda{
+        width: 300px;
+      }
+      
+      .tarjeta{
+        grid-area: club;
+        color: black;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 350px;
+        margin-right: 200px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        list-style: none;
+        background-color: white;
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .botones {
+        position:relative;
+        display: block;
+        width: fit-content;
+        padding: 15px;
+        margin: auto;
+        margin: 5px;
+      }
+      
+      .tarjeta-titulo{
+        display: block;
+        font-size: 1.17rem;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+        font-weight: bold;
+      }
+      
+      .carousel-item{
+        align-items: center;
+        text-align: center;
+      }
+      
+      
+      .fotos{
+        grid-area: fotos;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      
+      .foto-finde{
+        width: 500px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        grid-area: findes;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      
+      .video-cumple{
+        height: 100px;
+        width: 100px;
+        margin-top: 200px;
+      }
+      
+      .video-card{
+      height: 100px;
+      width: 100px;
+      justify-content: center;
+      }
+      
+      .card{
+        grid-area: card;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 35%;
+      }
+      
+      .cumples{
+        grid-area: cumples;
+        justify-content: center;
+        margin-top: 800px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+      }
+      
+      .club{
+        grid-area: club;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+      }
+      
+      .terminos{
+        display: block;
+        position: relative;
+        margin: 20px;
+      }
+      
+      .coments{
+        display: block;
+        position: relative;
+        margin: 5px;
+        width: auto;
+      }
+      
+      .pie{
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        background-color: black;
+        color: aliceblue;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        flex-wrap: wrap;
+        font-size: medium;
+        padding-top: 1px;
+        overflow: hidden;
+      }
+      
+      
+      .container {
+        position: relative;
+        width: 320px;
+        margin: 100px auto 0 auto;
+        perspective: 1000px;
+      }
+      
+      .carousel {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d; 
+        animation: rotate360 60s infinite forwards linear;
+      }
+      
+      .carousel__face { 
+        position: absolute;
+        width: 10%;
+        height: 50px;
+        top: 20px;
+        left: 10px;
+        right: 10px;
+        background-size: cover;
+        box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+        display: flex;
+      }
+      
+      span {
+        margin: auto;
+        font-size: 2rem;
+      }
+      
+      .carousel__face:nth-child(1) { 
+        background-image: url("./img/GAST8021.jpg");
+          transform: rotateY(0deg) translateZ(430px); }
+      .carousel__face:nth-child(2) { 
+        background-image: url("./img/GAST8021.jpg");
+          transform: rotateY( 40deg) translateZ(430px); }
+      .carousel__face:nth-child(3) {
+        background-image: url("./img/GAST8167.jpg");
+        transform: rotateY( 80deg) translateZ(430px); }
+      .carousel__face:nth-child(4) {
+        background-image: url("./img/GAST8170.jpg");
+        transform: rotateY(120deg) translateZ(430px); }
+      .carousel__face:nth-child(5) { 
+        background-image: url("./img/GAST8172.jpg");
+       transform: rotateY(160deg) translateZ(430px); }
+      .carousel__face:nth-child(6) { 
+        background-image: url("./img/IMG_2932.JPG");
+       transform: rotateY(200deg) translateZ(430px); }
+      .carousel__face:nth-child(7) { 
+        background-image: url("./img/IMG_3094.JPG");
+       transform: rotateY(240deg) translateZ(430px); }
+      .carousel__face:nth-child(8) {
+        background-image: url("./img/IMG_3123.JPG");
+        transform: rotateY(280deg) translateZ(430px); }
+      .carousel__face:nth-child(9) {
+        background-image: url("./img/IMG_3160.JPG");
+        transform: rotateY(320deg) translateZ(430px); }
+      
+      @keyframes rotate360 {
+        from {
+          transform: rotateY(0deg);
+        }
+        to {
+          transform: rotateY(-360deg);
   }
-}
+ }
