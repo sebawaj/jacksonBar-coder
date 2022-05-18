@@ -202,8 +202,6 @@ section.awSlider > img {
       -ms-flex-align: center;
           align-items: center;
   padding: 2rem;
-  margin-left: 100px;
-  /* margin-top: 300px; */
   margin-bottom: 15px;
   list-style: none;
   background-color: white;
@@ -212,7 +210,6 @@ section.awSlider > img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 35%;
 }
 
 .form-card {
@@ -226,8 +223,6 @@ section.awSlider > img {
       -ms-flex-align: center;
           align-items: center;
   padding: 2rem;
-  margin-left: 100px;
-  /* margin-top: 300px; */
   margin-bottom: 15px;
   list-style: none;
   background-color: white;
@@ -239,7 +234,6 @@ section.awSlider > img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: 35%;
 }
 
 .cumples {
@@ -512,7 +506,6 @@ El Id se utiliza una vez por HTML*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 35%;
 }
 
 .form-card {
@@ -541,7 +534,6 @@ El Id se utiliza una vez por HTML*/
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  margin-left: 35%;
 }
 
 .celda {
@@ -704,203 +696,6 @@ El Id se utiliza una vez por HTML*/
   overflow: hidden;
 }
 
-@media (max-width: 768px) and (min-width: 400px) {
-  .grid-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (100%)[1];
-        grid-template-columns: repeat(1, 100%);
-    -ms-grid-rows: (500px)[10];
-        grid-template-rows: repeat(10, 500px);
-    border: 1px solid black;
-    /* gap: 100px 20px; */
-        grid-template-areas: "encabezado" "carousel" "form-reserva" "form-card" "cumples" "club" "carta" "playlist" "ubi" "pie";
-  }
-  .encabezado {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: encabezado;
-    background-color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: 'Didact Gothic';
-  }
-  .carousel {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-    grid-area: carousel;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    margin-left: 100px;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .form-reserva {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    grid-area: form-reserva;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 2rem;
-    /* margin-top: 300px; */
-    margin-bottom: 15px;
-    list-style: none;
-    background-color: white;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: 35%;
-  }
-  .form-card {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
-    grid-area: form-card;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 2rem;
-    margin-left: 100px;
-    /* margin-top: 300px; */
-    margin-bottom: 15px;
-    list-style: none;
-    background-color: white;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-left: 35%;
-  }
-  .finde-titulo {
-    text-align: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 700px;
-  }
-  .cumples {
-    margin-top: 200px;
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-    grid-area: cumples;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .club {
-    -ms-grid-row: 6;
-    -ms-grid-column: 1;
-    grid-area: club;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .carta {
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;
-    grid-area: carta;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 35px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-  }
-  .carta-img {
-    width: 100px;
-    height: 50px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .playlist {
-    -ms-grid-row: 8;
-    -ms-grid-column: 1;
-    grid-area: playlist;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-  .ubi {
-    -ms-grid-row: 9;
-    -ms-grid-column: 1;
-    grid-area: ubi;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 300px;
-  }
-  .pie {
-    -ms-grid-row: 10;
-    -ms-grid-column: 1;
-    grid-area: pie;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
-    color: aliceblue;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: medium;
-    padding-top: 1px;
-    overflow: hidden;
-  }
-}
-
-body {
-  margin: 0;
-  background: lightgray;
-  text-align: center;
-  font-family: sans-serif;
-  color: #fefefe;
-}
-
 .container {
   position: relative;
   width: 320px;
@@ -1002,6 +797,751 @@ span {
     -webkit-transform: rotateY(-360deg);
             transform: rotateY(-360deg);
   }
+}
+
+@keyframes rotate360 {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(-360deg);
+            transform: rotateY(-360deg);
+  }
+}
+
+@media (min-width: 576px) {
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (80%)[1];
+        grid-template-columns: repeat(1, 80%);
+    -ms-grid-rows: (200px)[10];
+        grid-template-rows: repeat(10, 200px);
+    border: 1px solid black;
+    /* gap: 100px 20px; */
+        grid-template-areas: "encabezado" "carousel" "form-reserva" "form-card" "cumples" "club" "carta" "playlist" "ubi" "pie";
+  }
+}
+
+:root {
+  background-color: gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  background: #000;
+}
+
+section.awSlider .carousel {
+  display: table;
+  z-index: 2;
+  -webkit-box-shadow: 0 0 4px #444;
+  box-shadow: 0 0 15px rgba(1, 1, 1, 0.5);
+}
+
+section.awSlider {
+  margin: 30px auto;
+  padding: 30px;
+  position: relative;
+  display: table;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+section.awSlider:hover > img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+section.awSlider img {
+  pointer-events: none;
+}
+
+section.awSlider > img {
+  position: absolute;
+  top: 30px;
+  z-index: 1;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  filter: blur(1.8vw);
+  -webkit-filter: blur(2vw);
+  -moz-filter: blur(2vw);
+  -o-filter: blur(2vw);
+  -ms-filter: blur(2vw);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: .5;
+}
+
+.logo {
+  width: 220px;
+  height: 120px;
+}
+
+.fondo-menu {
+  background-color: white;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  margin-right: 10px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.encabezado {
+  grid-area: encabezado;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Didact Gothic';
+}
+
+.hover-1 {
+  color: black;
+  font-size: large;
+}
+
+.carousel {
+  grid-area: carousel;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-reserva {
+  grid-area: form-reserva;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  margin-bottom: 15px;
+  list-style: none;
+  background-color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-card {
+  grid-area: form-card;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  margin-bottom: 15px;
+  list-style: none;
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cumples {
+  color: #000;
+  grid-area: cumples;
+  margin-top: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.club {
+  color: #000;
+  grid-area: club;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carta {
+  grid-area: carta;
+  color: #000;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.carta-img {
+  width: 400px;
+  height: 550px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.playlist {
+  color: #000;
+  grid-area: playlist;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.ubi {
+  color: #000;
+  grid-area: ubi;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pie {
+  grid-area: pie;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: medium;
+  padding-top: 1px;
+  overflow: hidden;
+}
+
+nav {
+  background-color: white;
+}
+
+.nav-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: double;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /* float: right; */
+  background-color: white;
+}
+
+nav:hover-1 {
+  background-color: aqua;
+  color: burlywood;
+}
+
+.menu {
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  float: right;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header {
+  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  margin-top: 20px;
+  text-align: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Didact Gothic';
+  font-size: 22px;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body {
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: double;
+  background-color: whitesmoke;
+}
+
+/* Usamos un selector de elemento*/
+.logoWapp {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lista-menu a:hover {
+  background-color: red;
+  color: black;
+}
+
+a:active {
+  color: darkgrey;
+  font-size: medium;
+}
+
+/*le eliminamos el subrayado a las anclas*/
+nav a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  background-color: rgba(255, 255, 255, 0.822);
+  margin: 0;
+  padding: 0;
+}
+
+.menu a:hover {
+  color: grey;
+  background-color: black;
+}
+
+h2.menu-titulo {
+  color: black;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+li {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 14px;
+}
+
+/*Usamos un selector de clase.
+      Llamamos a la clase con un "." 
+      Se le llama kebab-case, metodologia de estructura de clases.
+      */
+/* Usamos el id con un "#" .
+      El Id se utiliza una vez por HTML*/
+.form-titulo {
+  display: block;
+  font-size: 1.17rem;
+  /* margin-block-start: 1rem;
+        margin-block-end: 1rem; */
+  margin: 15px;
+  font-weight: bold;
+}
+
+.form-reserva {
+  grid-area: form-reserva;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  list-style: none;
+  background-color: white;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-card {
+  grid-area: form-card;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  list-style: none;
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.celda {
+  width: 300px;
+}
+
+.tarjeta {
+  grid-area: club;
+  color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 350px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  list-style: none;
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.botones {
+  position: relative;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px;
+  margin: auto;
+  margin: 5px;
+}
+
+.tarjeta-titulo {
+  display: block;
+  font-size: 1.17rem;
+  -webkit-margin-before: 1rem;
+          margin-block-start: 1rem;
+  -webkit-margin-after: 1rem;
+          margin-block-end: 1rem;
+  font-weight: bold;
+}
+
+.carousel-item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.fotos {
+  grid-area: fotos;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.foto-finde {
+  width: 500px;
+  height: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  grid-area: findes;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.video-cumple {
+  height: 100px;
+  width: 100px;
+  margin-top: 200px;
+}
+
+.video-card {
+  height: 100px;
+  width: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  grid-area: card;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 35%;
+}
+
+.cumples {
+  grid-area: cumples;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 800px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.club {
+  grid-area: club;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.terminos {
+  display: block;
+  position: relative;
+  margin: 20px;
+}
+
+.coments {
+  display: block;
+  position: relative;
+  margin: 5px;
+  width: auto;
+}
+
+.pie {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: medium;
+  padding-top: 1px;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation: rotate360 60s infinite forwards linear;
+          animation: rotate360 60s infinite forwards linear;
+}
+
+.carousel__face {
+  position: absolute;
+  width: 10%;
+  height: 50px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+span {
+  margin: auto;
+  font-size: 2rem;
+}
+
+.carousel__face:nth-child(1) {
+  background-image: url("./img/GAST8021.jpg");
+  -webkit-transform: rotateY(0deg) translateZ(430px);
+          transform: rotateY(0deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(2) {
+  background-image: url("./img/GAST8021.jpg");
+  -webkit-transform: rotateY(40deg) translateZ(430px);
+          transform: rotateY(40deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(3) {
+  background-image: url("./img/GAST8167.jpg");
+  -webkit-transform: rotateY(80deg) translateZ(430px);
+          transform: rotateY(80deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(4) {
+  background-image: url("./img/GAST8170.jpg");
+  -webkit-transform: rotateY(120deg) translateZ(430px);
+          transform: rotateY(120deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(5) {
+  background-image: url("./img/GAST8172.jpg");
+  -webkit-transform: rotateY(160deg) translateZ(430px);
+          transform: rotateY(160deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(6) {
+  background-image: url("./img/IMG_2932.JPG");
+  -webkit-transform: rotateY(200deg) translateZ(430px);
+          transform: rotateY(200deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(7) {
+  background-image: url("./img/IMG_3094.JPG");
+  -webkit-transform: rotateY(240deg) translateZ(430px);
+          transform: rotateY(240deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(8) {
+  background-image: url("./img/IMG_3123.JPG");
+  -webkit-transform: rotateY(280deg) translateZ(430px);
+          transform: rotateY(280deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(9) {
+  background-image: url("./img/IMG_3160.JPG");
+  -webkit-transform: rotateY(320deg) translateZ(430px);
+          transform: rotateY(320deg) translateZ(430px);
 }
 
 @keyframes rotate360 {
