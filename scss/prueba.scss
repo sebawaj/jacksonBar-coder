@@ -131,7 +131,7 @@ section.awSlider > img{
   grid-area: form-reserva;
   color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   padding: 2rem;
   margin-bottom: 15px;
@@ -139,6 +139,7 @@ section.awSlider > img{
   background-color: white;
   flex-wrap: wrap;
   display: flex;
+
 }
 
 .form-card{
@@ -182,7 +183,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 align-items: center;
 margin-top: 35px;
 margin-bottom: 15px;
-margin-left: 20px;
 }
 
 .carta-img{
@@ -376,7 +376,6 @@ El Id se utiliza una vez por HTML*/
   padding: 2rem;
   margin-top: 30px;
   margin-bottom: 15px;
-  width: fit-content;
   list-style: none;
   background-color: white;
   justify-content: center;
@@ -410,8 +409,6 @@ El Id se utiliza una vez por HTML*/
   color: black;
   justify-content: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-left: 350px;
-  margin-right: 200px;
   margin-top: 20px;
   margin-bottom: 15px;
   list-style: none;
@@ -483,7 +480,6 @@ justify-content: center;
   margin-bottom: 15px;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-left: 35%;
 }
 
 .cumples{
@@ -605,13 +601,12 @@ span {
 }
 
 
-@media (min-width: 576px) {
+@media (max-width: 700px) and (min-width: 400px) {
   .grid-container{
       display: grid;
       grid-template-columns: repeat(1, 80%);
-      grid-template-rows: repeat(10, 200px);
+      grid-template-rows: repeat(10, 400px);
       border: 1px solid black;
-      /* gap: 100px 20px; */
       grid-template-areas:  
       "encabezado"
       "carousel"
@@ -626,83 +621,6 @@ span {
       ;
     }
   }
-
-      :root{
-        background-color: gray;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
-        justify-content: center;
-      }
-      
-      body{
-        background:#000;
-      }
-      
-      section.awSlider .carousel{
-        display:table;
-        z-index:2;
-        -moz-box-shadow: 0 0 4px #444;
-          -webkit-box-shadow: 0 0 4px #444;
-          box-shadow: 0 0 15px rgba(1,1,1,.5);
-      }
-      
-      section.awSlider{
-        margin:30px auto;
-        padding:30px;
-        position:relative;
-        display:table;
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-      
-      section.awSlider:hover > img{
-        -ms-transform: scale(1.2);
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-        opacity:1;
-      }
-      
-      section.awSlider img{
-         pointer-events: none;
-      }
-      
-      section.awSlider > img{
-        position:absolute;
-        top:30px;
-        z-index:1;
-        transition:all .3s;
-        filter: blur(1.8vw);
-        -webkit-filter: blur(2vw);
-        -moz-filter: blur(2vw); 
-        -o-filter: blur(2vw); 
-        -ms-filter: blur(2vw);
-        -ms-transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-        opacity:.5;
-      }
-      
-      .logo{
-        width: 220px;
-        height: 120px;
-      }
-      
-      .fondo-menu{
-        background-color: white;
-        font-weight: 300;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 10px;
-        padding: 10px;
-        margin-right: 10px;
-        text-align: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      }
       
       *{
         padding: 0;
@@ -714,7 +632,7 @@ span {
         justify-content: center;
         
       }
-      
+  
       .encabezado{
         grid-area: encabezado;
         background-color: black;
@@ -740,6 +658,8 @@ span {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
       
+
+// form-reserva-media-query
       .form-reserva{
         grid-area: form-reserva;
         color: black;
@@ -752,8 +672,10 @@ span {
         background-color: white;
         flex-wrap: wrap;
         display: flex;
+        width: 300px;
       }
-      
+
+// form-card-media-query
       .form-card{
       grid-area: form-card;
       color: black;
@@ -795,7 +717,6 @@ span {
       align-items: center;
       margin-top: 35px;
       margin-bottom: 15px;
-      margin-left: 20px;
       }
       
       .carta-img{
@@ -891,7 +812,6 @@ span {
         background-color: black;
       }
       
-      
       h1{
         font-family: 'Didact Gothic';font-size: 22px;
         color: black;
@@ -910,10 +830,6 @@ span {
       }
       
       /* Usamos un selector de elemento*/
-      
-      .logoWapp{
-        align-items: center;
-      }
       
       .lista-menu a:hover{
         background-color: red;
@@ -955,7 +871,6 @@ span {
         
       }
       
-      
       li{
           display: block;
           width:fit-content;
@@ -979,41 +894,6 @@ span {
         font-weight: bold;
       }
       
-      .form-reserva{
-        grid-area: form-reserva;
-        color: black;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 2rem;
-        margin-top: 30px;
-        margin-bottom: 15px;
-        width: fit-content;
-        list-style: none;
-        background-color: white;
-        justify-content: center;
-        display: flex;
-      }
-      
-      .form-card{
-        grid-area: form-card;
-        color: black;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        justify-content: left;
-        align-items: center;
-        padding: 2rem;
-        margin-top: 30px;
-        text-align: center;
-        margin-bottom: 15px;
-        list-style: none;
-        background-color: white;
-        width: fit-content;
-        justify-content: center;
-        display: flex;
-        position: relative;
-      }
-      
       .celda{
         width: 300px;
       }
@@ -1023,8 +903,6 @@ span {
         color: black;
         justify-content: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-left: 350px;
-        margin-right: 200px;
         margin-top: 20px;
         margin-bottom: 15px;
         list-style: none;
@@ -1055,7 +933,6 @@ span {
         align-items: center;
         text-align: center;
       }
-      
       
       .fotos{
         grid-area: fotos;
@@ -1096,7 +973,6 @@ span {
         margin-bottom: 15px;
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-left: 35%;
       }
       
       .cumples{
