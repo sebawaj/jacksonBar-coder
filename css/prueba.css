@@ -760,5 +760,23 @@ El Id se utiliza una vez por HTML*/
   color: black;
 }
 
+a:active {
+  color: red;
+  text-decoration: dotted;
+}
+
+.form-reserva-fotos{
+  display: none;
+} 
+
+.form-card-fotos{
+  display: none;
+}
+
+.photos{
+  width: 300px;
+  height: 300px;
+  margin-top: 15px;
+}
 
 }
