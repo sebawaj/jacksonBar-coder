@@ -161,7 +161,9 @@ section.awSlider > img {
   background-color: white;
   flex-wrap: wrap;
   display: flex;
-  width: 90%;
+  width: 50%;
+  margin:auto;
+  margin-top:15px;
 }
 
 .form-card {
@@ -174,9 +176,10 @@ section.awSlider > img {
   margin-bottom: 15px;
   list-style: none;
   background-color: white;
-  width: 90%;
   display: flex;
   flex-wrap: wrap;
+  width: 50%;
+  margin:auto;
 }
 
 
@@ -221,6 +224,12 @@ section.awSlider > img {
   align-items: center;
   justify-content: center; }
 
+  .photos{
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+  }
+
 .playlist {
   color: #000;
   grid-area: playlist;
@@ -235,7 +244,28 @@ section.awSlider > img {
   grid-area: ubi;
   justify-content: center;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+  .foto-bresh{
+    width: 800px;
+    height: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .video-bresh{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    height: 700px;
+    width: 700px;
+    justify-content: center;
+    display: flex;
+    margin:auto;
+
+  }
 
 .pie {
   grid-area: pie;
@@ -254,7 +284,9 @@ section.awSlider > img {
   overflow: hidden; }
 
 nav {
-  background-color: white; }
+  background-color: white; 
+  margin:auto;
+}
 
 .nav-section {
   display: flex;
@@ -284,10 +316,11 @@ nav:hover-1 {
   justify-content: space-around; }
 
 header {
-  margin: 10px;
+  margin: auto;
   margin-left: 10px;
   margin-right: 10px;
-  width: 100%; }
+  width: 98%; 
+}
 
 .logo {
   margin: 20px;
@@ -563,7 +596,7 @@ El Id se utiliza una vez por HTML*/
     to {
       transform: rotateY(-360deg); } }
 
-@media (max-width: 768px) and (min-width: 389px) {
+@media (max-width: 900px) and (min-width: 350px) {
   .grid-container {
     /* display: grid; */
     grid-template-columns: repeat(1, 100%);
@@ -574,6 +607,12 @@ El Id se utiliza una vez por HTML*/
 
   .container{
     display: none;
+  }
+
+  .carta{
+    align-items:center;
+    margin:auto;
+
   }
 
   .carousel{
@@ -591,7 +630,7 @@ El Id se utiliza una vez por HTML*/
   }
 
     .form-reserva {
-    margin-top: 15px;
+    margin-top: 25px;
     grid-area: form-reserva;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -604,6 +643,7 @@ El Id se utiliza una vez por HTML*/
     width: 90%;
     display: flex;
     margin-left: 18px;
+    margin:auto;
 }
 
   .form-card {
@@ -621,6 +661,7 @@ El Id se utiliza una vez por HTML*/
     display: flex;
     flex-wrap: wrap;
     margin-left: 15px;
+    margin:auto;
   }
   
   .finde-titulo {
@@ -730,6 +771,9 @@ El Id se utiliza una vez por HTML*/
     height: 300px;
     width: 300px;
     justify-content: center;
+    display: flex;
+    margin:auto;
+
   }
 
   .titulo-virgilio{
